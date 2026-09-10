@@ -17,19 +17,29 @@ $letter-spacing-loose: 0;
 $border-radius-1: $size-2;
 $border-radius-2: $size-4;
 
-$box-shadow-1: 0px 6px 5px rgb(0, 0, 0, 0.012),
-  0px 22px 18px rgb(0, 0, 0, 0.018), 0px 100px 80px rgb(0, 0, 0, 0.03);
+$box-shadow-1:
+  0px 6px 5px rgb(0, 0, 0, 0.012),
+  0px 22px 18px rgb(0, 0, 0, 0.018),
+  0px 100px 80px rgb(0, 0, 0, 0.03);
 
-$box-shadow-2: 0px 6px 5px rgb(0, 0, 0, 0.016),
-  0px 22px 18px rgb(0, 0, 0, 0.024), 0px 100px 80px rgb(0, 0, 0, 0.04);
+$box-shadow-2:
+  0px 6px 5px rgb(0, 0, 0, 0.016),
+  0px 22px 18px rgb(0, 0, 0, 0.024),
+  0px 100px 80px rgb(0, 0, 0, 0.04);
 
-$box-shadow-3: 0px 6px 5px rgb(0, 0, 0, 0.02), 0px 22px 18px rgb(0, 0, 0, 0.03),
+$box-shadow-3:
+  0px 6px 5px rgb(0, 0, 0, 0.02),
+  0px 22px 18px rgb(0, 0, 0, 0.03),
   0px 100px 80px rgb(0, 0, 0, 0.05);
 
-$box-shadow-4: 0px 6px 5px rgb(0, 0, 0, 0.03), 0px 22px 18px rgb(0, 0, 0, 0.042),
+$box-shadow-4:
+  0px 6px 5px rgb(0, 0, 0, 0.03),
+  0px 22px 18px rgb(0, 0, 0, 0.042),
   0px 100px 80px rgb(0, 0, 0, 0.07);
 
-$box-shadow-5: 0px 6px 5px rgb(0, 0, 0, 0.04), 0px 22px 18px rgb(0, 0, 0, 0.06),
+$box-shadow-5:
+  0px 6px 5px rgb(0, 0, 0, 0.04),
+  0px 22px 18px rgb(0, 0, 0, 0.06),
   0px 100px 80px rgb(0, 0, 0, 0.1);
 
 // body
@@ -58,30 +68,38 @@ $container-max-width: 64rem;
 $container-max-width-narrow: 40rem;
 $container-max-width-wide: 75rem;
 
-// site header
-$site-header-background-color: $color-primary-300;
-$site-header-color: $color-neutral-900;
-$site-header-padding: $size-8 0;
-$site-header-margin: 0;
-$site-header-jusitifcation-small-screens: center;
-$site-header-jusitifcation-large-screens: space-between;
-$site-header-alignment: center;
+// navbar
 
-//navigation
-$navigation-color: $site-header-color;
-$navigation-color-hover: $color-neutral-000;
-$navigation-gap: $size-9;
-$navigation-link-text-decoration: none;
+$navbar-background-color: $color-primary-300;
+$navbar-color: $color-neutral-900;
+$navbar-padding: $size-8 0;
+$navbar-margin: 0;
 
-$navigation-header-background-color: $color-neutral-000;
-$navigation-header-color: $color-neutral-1000;
+$navbar-justification-small-screens: center;
+$navbar-justification-large-screens: space-between;
+$navbar-alignment: center;
 
-$navigation-link-color: $navigation-color;
-$navigation-link-color-hover: $navigation-color-hover;
-$navigation-link-background-color: $site-header-background-color;
-$navigation-link-background-color-hover: $color-neutral-800;
-$navigation-link-text-decoration: none;
-$navigation-link-padding: 1em 2em;
+// navbar links
+
+$navbar-link-color: $navbar-color;
+$navbar-link-color-hover: $color-neutral-000;
+$navbar-link-gap: $size-9;
+$navbar-link-text-decoration: none;
+$navbar-link-padding: 1em 2em;
+$navbar-link-background-color: $navbar-background-color;
+$navbar-link-background-color-hover: $color-neutral-800;
+
+// navbar toggle
+
+$navbar-toggle-size: 1.2em;
+$navbar-toggle-padding: $size-2;
+$navbar-toggle-color: $navbar-color;
+$navbar-toggle-background: transparent;
+$navbar-toggle-border: 2px solid currentColor;
+$navbar-toggle-border-radius: $border-radius-1;
+
+$navbar-toggle-color-hover: $color-neutral-000;
+$navbar-toggle-background-hover: $color-neutral-800;
 
 // site footer
 $footer-background-color: $color-primary-300;
