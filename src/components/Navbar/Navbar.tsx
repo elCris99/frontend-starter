@@ -36,7 +36,7 @@ function Navbar() {
           aria-label={menuIsOpen ? "Close menu" : "Open menu"}
           onClick={() => setIsMenuOpen((current) => !current)}
         >
-          {isMenuOpen ? (
+          {menuIsOpen ? (
             <svg aria-hidden="true" viewBox="0 0 100 100">
               <rect x="10" y="45" width="80" height="10" transform="rotate(45 50 50)" />
               <rect x="10" y="45" width="80" height="10" transform="rotate(-45 50 50)" />

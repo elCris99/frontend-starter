@@ -9,7 +9,9 @@
   padding: $button-padding;
   border: $button-border;
   border-radius: $button-border-radius;
-  transition: 275ms ease;
+  transition:
+    color 275ms ease,
+    background-color 275ms ease;
 
   @include text-role(body);
 
